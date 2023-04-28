@@ -1,0 +1,22 @@
+   .chart-container {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+  }
+  
+  .resize-handle {
+    position: relative;
+  }
+  
+  .drag-handle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: move;
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+  
